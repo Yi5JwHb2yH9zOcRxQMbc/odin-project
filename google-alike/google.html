@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>pretend Google</title>
+    <link rel="icon" type="image/png" href="googlemini.jpg">
+    <link href="google.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script>
+        $('#filtersubmit').click(function() {
+            alert('Searching for ' + $('#filter').val());
+        });
+    </script>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="float-top-left">About</li>
+            <li class="float-top-left">Store</li>
+            <li class="float-top-right"><button class="button3">Sign In</button></li>
+            <li class="float-top-right">
+                <a href="" class="button3">
+                    <i class="fa fa-th fa-lg"></i></a>
+            </li>
+            <li class="float-top-right">Images</li>
+            <li class="float-top-right">Gmail</li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="grid-container">
+            <div class="">
+                <form><img src="googlelogo_color_272x92dp.png" alt="google logo">
+                    <br>
+                    <i id="filtersubmit" class="fa fa-search"></i>
+                    <input type="text" class="search" id="filter">
+                </form>
+            </div>
+            <div class="centered-div">
+                <button class="button1">Google Search</button>
+                <button class="button1">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul class="bottomnavbar">
+            <li class="float-left-bottom">Advertising</li>
+            <li class="float-left-bottom">Business</li>
+            <li class="float-left-bottom">How Search works</li>
+
+            <li class="float-right-bottom">Settings</li>
+            <li class="float-right-bottom">Terms</li>
+            <li class="float-right-bottom">Privacy</li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>

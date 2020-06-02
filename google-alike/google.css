@@ -1,0 +1,211 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 30px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+.grid-container2 {
+    display: grid;
+    justify-content: space-around;
+    grid-gap: 10px;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+input {
+    text-indent: 25px;
+}
+
+.navbar {
+    padding: 10px 0px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+
+.float-top-left {
+    display: inline;
+    color: #000;
+    opacity: 0.75;
+    background-color: white;
+    float: left;
+    list-style-type: none;
+    top: 25px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    border-right: none;
+    padding: 10px;
+}
+
+.float-top-right {
+    display: inline;
+    color: #000;
+    opacity: 0.75;
+    background-color: white;
+    float: right;
+    top: 25px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    border-right: none;
+    padding: 10px;
+}
+
+.bottomnavbar {
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+
+.float-left-bottom {
+    color: #5f6368;
+    background-color: #f2f2f2;
+    display: inline;
+    bottom: 8px;
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    float: left;
+    list-style-type: none;
+    border-right: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.float-right-bottom {
+    color: #5f6368;
+    background-color: #f2f2f2;
+    bottom: 8px;
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    display: inline;
+    float: right;
+    list-style-type: none;
+    border-right: none;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.centered-div {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+section {
+    background: white;
+    padding: 1em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.search {
+    border-radius: 20px;
+    width: 450px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.search:hover {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 450px;
+    padding: 12px;
+    box-shadow: 0 1px 6px rgba(33, 33, 33, .2);
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+}
+
+.button1 {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    padding: 8px 16px;
+    margin: 11px 4px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.button1:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.button2 {
+    background-color: white;
+    color: #7B7B7B;
+    padding: 8px 16px;
+    margin: 11px 4px;
+    text-decoration: none;
+}
+
+.button3 {
+    background-color: #4583ed;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-top: -6px;
+    margin-right: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: 15px;
+    top: 30px;
+    color: #7B7B7B;
+    cursor: pointer;
+    width: 0;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
